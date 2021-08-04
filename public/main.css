@@ -1,0 +1,131 @@
+
+*{
+    background-color: rgb(201, 199, 199);
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+#header{
+    border: 2px solid black;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+
+#main1{
+    border: 2px solid black;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+}
+
+#main2{
+    border: 2px solid black;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+#inputDiv{    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+#selectDiv{    
+    width: 60%;
+}
+
+#extraDiv{
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+
+}
+
+#weather-div{    
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding-left: 20px;
+}
+
+#temperature-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#geolocation-div{
+    
+    width: 60%;
+}
+
+#selectDiv-options ul{
+    display: flex;
+    flex-direction: column;    
+}
+
+#inputDiv-form {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#btn-search{
+    border-radius: 50px;    
+    font-size: large;
+    font-weight: bold;
+    background-color: greenyellow;
+}
+
+#extraDiv{
+    text-align: center;
+}
+
+
+#city-selected{
+    border-radius: 50px;
+    font-size: large;
+    font-weight: bold;
+    background-color: yellow;
+    margin-top: 25px;   
+
+}
+
+.optionCity{
+    margin-top: 10px;
+}
+
+#select-button{
+    border-radius: 50px;
+    font-size: large;
+    font-weight: bold;
+    background-color: yellow;
+    margin-top: 25px;  
+    margin-left: 10px;
+    width: 280px;
+}
+
+.optionCity :hover{
+    cursor: pointer;
+}
+
+
+
+.invi{
+    display: none;
+}
+
